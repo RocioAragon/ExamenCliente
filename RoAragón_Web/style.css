@@ -1,0 +1,630 @@
+html {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/*CUERPO ENTERO CON FONDO*/
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*MENÚ*/
+
+nav {
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: fila;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px -6px grey;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+}
+
+li {
+    text-align: right;
+    font-size: large;
+    display: inline;
+}
+
+.enlaces {
+    margin: 7%;
+}
+
+.imgMenu {
+    align-content: left;
+    width: 160px;
+    height: 80px;
+    padding: auto;
+}
+
+.menu {
+    align-items: center;
+    font: bold 72% monospace;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(22, 88, 22);
+    margin: 11px;
+    font-family: Questrial, sans-serif;
+}
+
+menu:hover {
+    font-size: 100%;
+}
+
+footer {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+}
+
+
+/* CARRUSEL */
+
+.carousel {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#imagen {
+    width: 100%;
+    height: 580px;
+    background-size: cover;
+}
+
+#play,
+#stop {
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52%;
+}
+
+#retroceder {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 27%;
+    margin-left: 2%;
+    color: white;
+}
+
+#avanzar {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 27%;
+    margin-right: 2%;
+    color: white;
+}
+
+
+/*EDITANDO DIV PRE-FOOTER*/
+
+.prefooter {
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    padding-left: 13%;
+    display: flex;
+    flex-direction: fila;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contacto {
+    font-style: rgb(75, 75, 75);
+    font-family: Questrial, sans-serif;
+    float: left;
+    width: 33%;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.socialmedia {
+    font-style: rgb(75, 75, 75);
+    font-family: Questrial, sans-serif;
+    float: center;
+    width: 33%;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.listasuscripcion {
+    font-style: rgb(75, 75, 75);
+    font-family: Questrial, sans-serif;
+    float: right;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: left;
+    font-size: large;
+    font-weight: 300;
+}
+
+.letra {
+    color: rgb(97, 97, 97);
+}
+
+.cuadrotexto {
+    color: grey;
+    width: 300px;
+    height: 30px;
+}
+
+.botonform {
+    font-family: Questrial, sans-serif;
+    font-size: smaller;
+    border: 0px;
+    color: white;
+    background-color: rgb(0, 44, 0);
+    text-align: center;
+    font-size: 16px;
+    width: 80px;
+    height: 30px;
+}
+
+.botonform:hover {
+    opacity: 0.9;
+}
+
+
+/*Botones de RRSS e Iconos*/
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: rgb(0, 66, 0);
+}
+
+.fa-twitter {
+    color: rgb(0, 66, 0);
+}
+
+.fa-instagram {
+    color: rgb(0, 66, 0);
+}
+
+
+/*Formulario*/
+
+.tituloContact {
+    padding-top: 90px;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.contactform {
+    font-style: rgb(75, 75, 75);
+    margin: 0 auto;
+    font-family: Questrial, sans-serif;
+    align-items: center;
+    margin: auto;
+    width: 45%;
+    height: auto;
+}
+
+.cuadrotexto2 {
+    color: grey;
+    width: 700px;
+    height: 30px;
+}
+
+.cuadrotexto3 {
+    color: grey;
+    width: 700px;
+}
+
+
+/*Botón del formulario*/
+
+.button {
+    display: inline-block;
+    background-color: rgb(0, 51, 0);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+
+/*Errores en formulario*/
+
+.errores {
+    color: rgb(218, 0, 0);
+    align-content: center;
+    width: 20%;
+    margin: auto;
+}
+
+
+/*Footer*/
+
+footer {
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    height: 70px;
+}
+
+.copyright {
+    color: rgb(97, 97, 97);
+}
+
+
+/*Sobre mi*/
+
+.sobremi {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: large;
+    background-color: white;
+    width: 75%;
+    padding: 5%;
+    padding-left: 13%;
+    display: flex;
+    flex-direction: fila;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.parafosobremi {
+    width: 58%;
+}
+
+.fotosobremi {
+    width: 38%;
+    height: 38%;
+    border-radius: 50%;
+}
+
+.name {
+    color: rgb(58, 58, 58);
+    font-family: Questrial, sans-serif;
+    margin: auto;
+    width: 10%;
+}
+
+
+/*Tienda*/
+
+.tienda {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-left: 9%;
+    display: flex;
+    flex-direction: fila;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tablaproductos {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.td {
+    width: 30%;
+}
+
+.info {
+    width: 5%;
+}
+
+.muestra {
+    width: 50%;
+}
+
+.boton {
+    border: 0px;
+    font-family: Questrial, sans-serif;
+    color: white;
+    background-color: rgb(0, 58, 0);
+    text-align: center;
+    font-size: 13px;
+    width: 75px;
+    height: 25px;
+}
+
+.boton:hover {
+    opacity: 0.88;
+}
+
+
+/*GALERIA*/
+
+.galeria {
+    background-color: white;
+    width: 80%;
+    padding: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    flex-direction: fila;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.categoria {
+    font-weight: 200;
+    color: rgb(100, 100, 100);
+    font-family: Questrial, sans-serif;
+    padding-left: 35%;
+}
+
+.name {
+    color: rgb(100, 100, 100);
+    padding-left: 9%;
+}
+
+.imagenMuestra {
+    width: 78%;
+    height: 80%;
+}
+
+.imagenMuestra:hover {
+    transform: scale(1.1);
+    opacity: 0.80;
+}
+
+
+/*______________________________________________________________________________*/
+
+
+/*GALERIAS 1, 2 Y 3*/
+
+.fila>.columna {
+    padding-left: 19%;
+    padding-right: 0%;
+    padding-top: 15px;
+    width: auto;
+}
+
+.columna {
+    width: 50%;
+}
+
+.fila:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Crea cuatro columnaas iguales que flotan una al lado de la otra */
+
+.columna {
+    float: left;
+    width: 0%;
+}
+
+
+/*Fondo */
+
+.contenido {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 70px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(26, 25, 25, 0.699);
+}
+
+
+/* Contenido */
+
+.contenidoFotoVertical {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    /*Tamaño del conmtenido de las fotos que se pasan*/
+    width: 28%;
+    max-width: 1000px;
+}
+
+.contenidoFotoHorizontal {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    /*Tamaño del conmtenido de las fotos que se pasan*/
+    width: 80%;
+    max-width: 1000px;
+}
+
+
+/* TBotón de cerrar */
+
+.cerrarCursor {
+    color: white;
+    position: absolute;
+    /*Top y right de la x para cerrar el album*/
+    top: 60px;
+    right: 90px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.cerrarCursor:hover,
+.cerrarCursor:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Ocultar las diapositivas por defecto */
+
+.misFotos {
+    display: none;
+}
+
+
+/* Botones siguiente y anterior */
+
+.anterior,
+.siguiente {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+/* Botón siguiente" a la derecha */
+
+.siguiente {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.siguiente:hover,
+.anterior:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Al pasar el ratón, agregue un color de fondo negro con un poco de transparencia */
+
+.numeroDeFoto {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img.fotoGaleria {
+    /*Redimension de imagenes antes de album*/
+    transition: 0.3s;
+    width: 310px;
+}
+
+.fotoGaleria:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgJS {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*CSS DEL CARRITO DE COMPRA*/
+
+.tituloCarrito {
+    visibility: hidden;
+}
+
+.carrito {
+    border: 0.5px solid rgb(207, 207, 207);
+    border-collapse: collapse;
+    border-spacing: 1px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.carritoth {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    background-color: rgb(0, 70, 0);
+    color: white;
+    font-size: 15px;
+}
+
+.botonCarrito {
+    border: 0px;
+    font-family: Questrial, sans-serif;
+    color: white;
+    background-color: rgb(0, 70, 0);
+    text-align: center;
+    font-size: 11px;
+    width: 75px;
+    height: 25px;
+}
+
+.botonCarritoComprar {
+    border: 0px;
+    font-family: Questrial, sans-serif;
+    color: white;
+    background-color: rgb(0, 70, 0);
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height: 35px;
+}
+
+.botonCarritoComprar:hover {
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+
+/*VIDEO PRESENTACION*/
+
+.videoPresentacion {
+    margin: auto;
+    padding-left: 30%;
+}

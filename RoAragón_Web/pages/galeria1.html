@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="../scripts/LightBoxGalerias.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="imagen">
+            <img class="imgMenu " src="../img/RoAragon.png">
+        </div>
+
+        <div class="enlaces">
+            <li>
+                <a class="menu" href="../index.html">HOME </a>
+            </li>
+
+            <li>
+                <a class="menu" href="galeria.html">GALERIA </a>
+            </li>
+            <li>
+                <a class="menu" href="tienda.html"> TIENDA </a>
+            </li>
+            <li>
+                <a class="menu" href="sobremi.html">ABOUT ME</a>
+            </li>
+            <li>
+                <a class="menu" href="contacto.html">CONTACTO</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="tituloContact">
+        <br>
+        <br>
+        <hr>
+    </div>
+    <div class="galeria1">
+        <!-- Imagenes para abrir la galería -->
+        <div class="fila">
+            <div class="columna">
+                <img src="Familia/1.jpg" onclick="abrirContenido();fotoActual(1)" class="fotoGaleria">
+                <img src="Familia/2.JPG" onclick="abrirContenido();fotoActual(2)" class="fotoGaleria">
+                <img src="Familia/3.jpg" onclick="abrirContenido();fotoActual(3)" class="fotoGaleria">
+                <img src="Familia/4.jpg" onclick="abrirContenido();fotoActual(4)" class="fotoGaleria">
+                <img src="Familia/5.jpg" onclick="abrirContenido();fotoActual(5)" class="fotoGaleria">
+                <img src="Familia/6.jpg" onclick="abrirContenido();fotoActual(6)" class="fotoGaleria">
+                <img src="Familia/7.jpg" onclick="abrirContenido();fotoActual(7)" class="fotoGaleria">
+                <img src="Familia/8.jpg" onclick="abrirContenido();fotoActual(8)" class="fotoGaleria">
+            </div>
+        </div>
+
+        <div id="miContenido" class="contenido">
+            <span class="cerrarCursor" onclick="cerrarContenido()">&times;</span>
+            <div class="contenidoFotoVertical">
+
+                <div class="misFotos">
+                    <div class="numeroDeFoto">1 / 8</div>
+                    <img class="imgJS" src="Familia/1.JPG">
+                </div>
+
+                <div class="misFotos">
+                    <div class="numeroDeFoto">2 / 8</div>
+                    <img class="imgJS" src="Familia/2.JPG" />
+                </div>
+
+                <div class="misFotos">
+                    <div class="numeroDeFoto">3 / 8</div>
+                    <img class="imgJS" src="Familia/3.JPG" />
+                </div>
+
+                <div class="misFotos">
+                    <div class="numeroDeFoto">4 / 8</div>
+                    <img class="imgJS" class="imgJS" src="Familia/4.JPG" />
+                </div>
+
+                <div class="misFotos ">
+                    <div class="numeroDeFoto">5 / 8</div>
+                    <img class="imgJS " src="Familia/5.JPG " style="width:100% ">
+                </div>
+
+                <div class="misFotos ">
+                    <div class="numeroDeFoto">6 / 8</div>
+                    <img class="imgJS " src="Familia/6.JPG ">
+                </div>
+
+                <div class="misFotos ">
+                    <div class="numeroDeFoto">7 / 8</div>
+                    <img class="imgJS " src="Familia/7.JPG ">
+                </div>
+
+                <div class="misFotos ">
+                    <div class="numeroDeFoto">8 / 8</div>
+                    <img class="imgJS " src="Familia/8.jpg ">
+                </div>
+
+                <!-- Controles de siguiente/anterior -->
+                <a class="anterior" onclick="masFotos(-1) ">&#10094;</a>
+                <a class="siguiente" onclick="masFotos(1) ">&#10095;</a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr ">
+    <div class="prefooter ">
+
+        <div class="contacto ">
+            <p class="titulo "> CONTACTO </p>
+
+            <p class="letra "> roaragonfotografia@gmail.com</p>
+            <p class="letra ">600 00 00 00</p>
+            <p class="letra ">Sevilla, España</p>
+        </div>
+
+        <div class="socialmedia ">
+            <p class="titulo ">SIGUENOS EN REDES SOCIALES</p>
+            <br>
+            <a href="https://es-es.facebook.com/ " class="fa fa-facebook "></a>
+            <a href="https://twitter.com/?lang=es " class="fa fa-twitter "></a>
+            <a href="https://www.instagram.com/?hl=es " class="fa fa-instagram "></a>
+        </div>
+
+        <div class="listasuscripcion ">
+            <p class="titulo "> BOLETIN INFORMATIVO</p>
+            <br>
+            <input class="cuadrotexto " type="text " name="text " placeholder="Dirección de correo electrónico " /><br><br>
+            <input class="botonform " type="submit " value="Suscribe " />
+        </div>
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <p class="copyright "> © 2021. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
